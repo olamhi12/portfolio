@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+.first {
+    background-image: url(imgs/Rectangle\ 19290\ \(1\).png);
+    height: 766px;
+}
+    header .right {
+        display: flex;
+        align-items: center;
+        gap: 200px;
+      }
+      header {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 120px;
+          padding-top: 30px;
+          color: white;
+      }
+      header a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;   
+      }
+      header a:hover {
+          border-bottom: 2px solid #DF6951;
+      }
+      .middle {
+          display: flex;
+          gap: 30px;
+      }
+      header button {
+          background-color: #DF6951;
+          border-radius: 5px;
+          border: 0;
+          padding: 10px;
+          color: white; }
