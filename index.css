@@ -141,8 +141,8 @@ header button {
 }
 .tour {
     position: relative;
-    width: 195px;
-    height: 210px;
+    width: 210px;
+    height: 250px;
     padding-top: 10px;
     border-radius: 10px;
     background-color: whitesmoke;
@@ -164,10 +164,12 @@ header button {
     display: flex;
     justify-content: center;
     background-color: whitesmoke;
+    padding-left: 100px;
     gap: 150px;
 }
 .second .main .words {
     margin-top: 150px;
+    width: 50%;
     
 }
 .second .main .words p {
@@ -186,8 +188,9 @@ header button {
 /* third */
 .third {
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     justify-content: center;
+    /* align-items: center; */
     margin-left: 120px;
     padding-top: 100px;
 }
@@ -195,7 +198,7 @@ header button {
     font-size: 2rem;
 }
 .third h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .together {
     display: flex;
@@ -238,6 +241,34 @@ h2 {
 /* fifth */
 .fifth {
     text-align: center;
+}
+.fifth .main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .img {
+    position: relative;
+}
+.same {
+    position: absolute;
+    left: 10%;
+    bottom: -90px;
+}
+.main .flex {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+}
+.flex .side {
+    display: flex;
+    gap: 5px;
 }
 
 /* responsiveness */
